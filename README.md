@@ -13,9 +13,9 @@ The application optimizes frontend performance by leveraging memoized JavaScript
 * Search and filter through thousands of Pokémon entities with instant response times
 * Build, name, and manage custom 6-slot Pokémon teams (`TeamBuilder.jsx`)
 * Custom type-coverage engine (`typeChart.js`) evaluating dual-type strengths, weaknesses, immunities, and resistances
-* Persistent user favorites (`Favorites.jsx`, `FavoriteButton.jsx`) and saved teams via backend database storage[cite: 1, 2]
+* Persistent user favorites (`Favorites.jsx`, `FavoriteButton.jsx`) and saved teams via backend database storage
 * Relational data integrity enforced via foreign keys and `CASCADE` deletes
-* Secure authentication (`Login.jsx`, `Register.jsx`, `authMiddleware.js`) and protected API endpoints[cite: 1, 2]
+* Secure authentication (`Login.jsx`, `Register.jsx`, `authMiddleware.js`) and protected API endpoints
 * Clean code quality maintained with ESLint
 
 ## Tech Stack
@@ -135,8 +135,8 @@ Open the local development URL provided by Vite in your browser.
 
 * Designing normalized relational database schemas with foreign keys and cascading rules in PostgreSQL
 * Implementing B-Tree database indexes to optimize relational query performance to $O(\log N)$
-* Managing large frontend datasets efficiently by replacing linear array scans with $O(1)$ JavaScript Map objects and useMemo
-* Structuring modular React architectures featuring decoupled pages (TeamBuilder.jsx, Favorites.jsx), atomic components, and service layers (pokeapi.js, typeChart.js)
+* Managing large frontend datasets efficiently by replacing linear array scans with $O(1)$ JavaScript `Map` objects and `useMemo`
+* Structuring modular React architectures featuring decoupled pages (`TeamBuilder.jsx`, `Favorites.jsx`), atomic components, and service layers (`pokeapi.js`, `typeChart.js`)
 * Developing modular backend route handlers and custom authentication middleware in Express.js
 * Handling asynchronous REST API requests and managing loading/error states safely
 * Maintaining code standards and quality using ESLint
