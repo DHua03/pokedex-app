@@ -9,6 +9,7 @@ build/
 
 # Environment Variables & Secrets
 .env
+database.env
 .env.local
 .env.production
 
