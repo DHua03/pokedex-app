@@ -1,0 +1,25 @@
+{
+  "name": "pokedex-app",
+  "version": "1.0.0",
+  "description": "A high-performance, full-stack Pokémon team-builder application built with React, Vite, Node.js, Express, and PostgreSQL that allows users to construct teams, analyze defensive and offensive type coverage, and manage user data using data structures optimized for speed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHua03/pokedex-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DHua03/pokedex-app/issues"
+  },
+  "homepage": "https://github.com/DHua03/pokedex-app#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  }
+}
